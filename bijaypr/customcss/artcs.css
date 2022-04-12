@@ -1,0 +1,60 @@
+.hero{
+  max-width: 114rem;
+  height: 40rem;
+  background: url('../images/potatof.jpg') no-repeat center center / cover;
+  margin: 5rem auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+main{
+  width: 70%;
+  max-width: 80rem;
+  background-color:rgb(146, 132, 107) ;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  margin-top: -15rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main h2{
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+main .profile-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+}
+main .profile-container .profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .profile-container .profile .img-container{
+  width: 60px;
+  height: 60px;
+  background: url('../images/ppf.jpg') no-repeat center center / cover;
+  border-radius: 0.5rem;
+
+}
+main .profile-container .profile .text{
+    margin: 0 1rem;
+    color: black;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.profile .text h3{
+    text-transform: uppercase;
+
+}
+main p{
+  color: black;
+  margin: 5px 0;
+}
+main h2{
+  text-align: center;
+}

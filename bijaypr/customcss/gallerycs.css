@@ -1,0 +1,28 @@
+body{
+    background-color: bisque;
+}
+h2{
+   
+    font-family: Arial;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+.small-container .row-2{
+    background-color: white;
+}
+
+#img-gal{
+    height: 360px;
+    width: 360px;
+    margin-left: 35px;
+    filter: grayscale(50%);
+    margin-bottom: 35px;
+   
+}
+#img-gal:hover{
+    transition: 1.3s;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+   
+}

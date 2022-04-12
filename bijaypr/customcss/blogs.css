@@ -1,0 +1,55 @@
+.containerb{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid seagreen;
+}
+.card:hover{
+    background-color: rgb(198, 230, 102);
+    color: aliceblue;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background: rgb(23, 37, 12);
+    color: azure;
+    padding: 15px 20px;
+    display: block;
+    margin: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.card a:hover{
+    background-color: rgb(210, 147, 75);
+    color: rgb(23, 37, 12) ;
+}
+.card-image{
+    background: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+    background-image: url('../images/potatof.jpg');
+}
+.car-2{
+    background-image: url('../images/potatof.jpg');
+}
+.car-3{
+    background-image: url('../images/potatof.jpg');
+}
